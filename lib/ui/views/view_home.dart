@@ -39,6 +39,7 @@ class ViewHome extends StatelessWidget {
           builder: (context, state) {
             var breeds = (state as DogStateUpdated).breeds;
             return Container(
+              color: UIColor.white,
                 padding: EdgeInsets.only(left: 16, right: 16),
                 width: queryData.size.width,
                 height: queryData.size.height,
